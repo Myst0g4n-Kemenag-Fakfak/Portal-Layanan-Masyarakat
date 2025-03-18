@@ -42,12 +42,13 @@ h2 {
   font-size: 24px;
   font-weight: 500;
 }
-.buttons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 30px;
+button {
+  width: auto; /* Atur agar tombol menyesuaikan ukuran teks */
+  max-width: 80%; /* Hindari tombol terlalu lebar */
+  padding: 10px 15px;
+  text-align: center;
+  white-space: normal; /* Izinkan teks wrap */
+  word-wrap: break-word; /* Pastikan teks bisa dipisah */
 }
 .button {
   display: flex;
